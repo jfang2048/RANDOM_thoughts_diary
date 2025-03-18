@@ -4,4 +4,4 @@
 
 别刷社交媒体了
 
-
+reduce frequency of ai-using
