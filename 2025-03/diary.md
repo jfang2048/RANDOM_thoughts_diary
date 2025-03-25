@@ -13,9 +13,6 @@ study everyday !
 letcode
 
 
-
-
-
 Donot forget ur dream !
 English And Letcode
 
@@ -23,3 +20,6 @@ English And Letcode
 Work out !!
 
 Run And Soccer
+
+
+Treat these syntax elements as comments expressing the intent of the code, rather than focusing on the overhead
