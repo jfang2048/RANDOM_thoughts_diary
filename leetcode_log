@@ -1,0 +1,80 @@
+grind+neetcode
+You can always use both. Use Grind 75 for the customized schedule and then find your solutions on NeetCode.
+
+https://algo.itcharge.cn/
+
+https://leetcode.cn/discuss/post/3510927/jiao-ni-ru-he-4ge-yue-gao-xiao-shua-man-1vswa/
+
+---
+
+I. Core Data Structures
+Linear Structures
+Array: Random access O(1), Insertion/Deletion O(n)
+String: Special form of character arrays
+Linkedlist: Random access O(n), Insertion/Deletion O(1)
+Stack: LIFO (Last-In-First-Out) operations
+Queue: FIFO (First-In-First-Out) operations
+Key-Value Stores
+Hashtable: Average O(1) access time
+Tree Structures
+Tree: Basic tree structure
+Binary Search Tree (BST): Left subtree < Root < Right subtree
+Heap: Foundational for priority queues
+Complex Structures
+Graph: Network of nodes + edges
+
+II. Core Algorithmic Paradigms
+Brute-force Optimization
+Two pointers: Optimize with same-direction/opposing-direction pointers
+Binary search: O(log n) search
+Traversal & Search
+BFS (Breadth-First Search): Queue implementation, shortest paths
+DFS (Depth-First Search): Stack implementation, backtracking foundation
+Recursion: Function self-calling paradigm
+Advanced Strategies
+Dynamic Programming (DP): Optimal substructure + overlapping subproblems
+Greedy algorithm: Local optimal decisions
+
+III. Supporting Techniques
+Sorting Algorithms:
+- Quicksort (divide-and-conquer)
+- Merge sort (divide-and-conquer)
+- Heapsort (application of heap structures)
+
+
+[] Quicksort: Find a middle pivot, recurse. Move left->right & right->left; swap misplaced elements.
+
+[] Merge sort: Divide, then merge (like merging sorted subarrays).
+
+[] Quickselect: Directly store elements larger/smaller than pivot in separate arrays.
+
+[] Bucket sort: Partition numbers into intervals.
+
+Depth-First Search (DFS)
+	[] Stack implementation
+	[] Recursion implementation
+	
+[] Largest Island (problem): Not understood why stack sets grid[r][c]=0.
+
+[] 547 (Number of Provinces): Can be solved with Union-Find too.
+
+[] 417 (Pacific Atlantic Water Flow): Start from edges flowing uphill (towards higher ground). Can start from both ocean edges.
+
+[] 46 (Permutations): Backtracking not fully understood.
+[] 77 (Combinations): Select elements sequentially. Backtrack when no options left.
+
+[] 79 (Word Search): If current character matches word, DFS search neighbors.
+
+[] 51 (N-Queens): Diagonal coordinates relationship. Place queen row-by-row (backtracking). Why can we place row-by-row? Why is finishing all rows valid? Are there cases requiring fewer?
+
+Breadth-First Search (BFS)
+
+[] 1091 (Shortest Path in Binary Matrix): Explore 8 directions. Add valid cells to queue. Each layer (queue level) = same step count. Exit immediately if end is reached. (How is `front` used?)
+
+[] 934 (Shortest Bridge): First use DFS to locate/fill the first island (this step not fully understood). Once found, spread outwards via BFS.
+
+Relationship between DFS and Backtracking.
+
+[] 126 (Word Ladder II): First build graph using BFS (record distances/predecessors). Then use DFS (backtracking) to collect paths. (Not fully understood how paths are collected via backtracking).
+
+130, 257, 47, 40, 37, 310
